@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import '../App.css';
-import { AiOutlineMail, AiOutlineLinkedin, AiOutlineBehanceSquare } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineLinkedin, AiOutlineBehanceSquare, AiOutlineInstagram } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
 import { RiTwitterXFill } from "react-icons/ri";
+import { FaArtstation } from "react-icons/fa";
 
 const Footer = () => {
 
@@ -27,7 +28,10 @@ const Footer = () => {
                             <AiOutlineLinkedin size={40} />
                             <BiLogoTiktok size={38} />
                             <RiTwitterXFill size={35} />
-                            <AiOutlineBehanceSquare size={40} />
+                            <AiOutlineInstagram size={40} />
+                            <FaArtstation size={35} />
+                            <AiOutlineBehanceSquare size={40}  />
+                           
 
                         </div>
                     </div>
