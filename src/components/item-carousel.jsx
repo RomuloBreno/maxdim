@@ -15,17 +15,17 @@ margin: 20px;
 `;
 
 const items = () => {
-return(
-    <div>
-    <ContainerCarousel>
-    <Item></Item>
-    <Item></Item>
-    <Item></Item>
-    </ContainerCarousel>
-    </div>
+    return (
+        <div>
+            <ContainerCarousel>
+                <Item></Item>
+                <Item></Item>
+                <Item></Item>
+            </ContainerCarousel>
+        </div>
     );
 }
 
 
 
-  export default items;     
+export default items;     
