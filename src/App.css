@@ -1,0 +1,26 @@
+#root {
+  font-family: 'Poiret One';
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.banner-home{
+  margin-top:2%;
+  height: 240px;
+}
+
+.item{
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+.carrossel-home{
+  display: flex;
+}
+
+h1{
+font-size: 4rem;
+}

@@ -1,0 +1,62 @@
+html, body,.app{
+position: relative;
+max-width: 100vw;
+color: black;
+}
+
+
+.navbar{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    right: 0;
+    cursor: pointer;
+    max-width: fit-content;
+    position: relative;
+}
+.close{
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 20px;
+    width: 70px;
+    height: 24px;
+}
+.close , .burguer:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+
+}
+.burguer{
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 20px;
+    width: 70px;
+    height: 24px;
+}
+
+.menu {
+    /*display: none;*/
+    width: fit-content;
+    cursor: pointer;
+}
+.menu > ul {
+    width: 150px;
+    list-style: none;
+    text-align: center;
+}
+.menu > ul >li{
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 20px;
+    height: 24px;
+}
+.menu > ul >li:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
